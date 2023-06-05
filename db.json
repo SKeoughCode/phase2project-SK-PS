@@ -3,26 +3,48 @@
         {
             "id": 1,
             "name": "Playstation 5",
-            "image": "Here is where the image goes",
-            "price": 700
+            "image": "https://media.gamestop.com/i/gamestop/11108140?$plp-tile3x$&fmt=webp",
+            "price": 459.99,
+            "accessories": {
+                "controller": {
+                    "name": "Playstation 5 Controller",
+                    "image": "https://media.gamestop.com/i/gamestop/11146116/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp$$&fmt=webp",
+                    "price": 64.99
+                },
+                "vrHeadset": {
+                    "name": "Sony Playstation VR2",
+                    "image": "https://media.gamestop.com/i/gamestop/20004927?$plp-tile3x$&fmt=webp",
+                    "price": 549.99
+                },
+                "camera": {
+                    "name": "Sony Playstation 5 HD Camera",
+                    "image": "https://media.gamestop.com/i/gamestop/11106280/Sony-PlayStation-5-HD-Camera?$plp-tile3x$&fmt=webp",
+                    "price": 44.99
+                },
+                "powerSupplyCable": {
+                    "name": "Sony Playstation 5 Power Cable",
+                    "image": "https://media.gamestop.com/i/gamestop/11182452_black/Atrix-Universal-AC-Power-Cable-black?$pdp$$&fmt=webp",
+                    "price": 7.97
+                }
+            }
         },
         {
             "id": 2,
             "name": "Xbox Series X",
-            "image": "Here is where the image goes",
-            "price": 750
+            "image": "https://media.gamestop.com/i/gamestop/11108371/Microsoft-Xbox-Series-X?$plp-tile3x$&fmt=webp",
+            "price": 459.99
         },
         {
             "id": 3,
             "name": "Nintendo Switch",
-            "image": "Here is where the image goes",
-            "price": 300
+            "image": "https://media.gamestop.com/i/gamestop/11149258?$plp-tile3x$&fmt=webp",
+            "price": 319.99
         },
         {
             "id": 4,
             "name": "PC",
-            "image": "Here is where the image goes",
-            "price": 2000
+            "image": "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1651708-847__1&recipeName=350",
+            "price": 1999.99
         }
     ]
 }
