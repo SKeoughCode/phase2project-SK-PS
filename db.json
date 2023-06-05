@@ -1,0 +1,28 @@
+{
+    "consoles": [
+        {
+            "id": 1,
+            "name": "Playstation 5",
+            "image": "Here is where the image goes",
+            "price": 700
+        },
+        {
+            "id": 2,
+            "name": "Xbox Series X",
+            "image": "Here is where the image goes",
+            "price": 750
+        },
+        {
+            "id": 3,
+            "name": "Nintendo Switch",
+            "image": "Here is where the image goes",
+            "price": 300
+        },
+        {
+            "id": 4,
+            "name": "PC",
+            "image": "Here is where the image goes",
+            "price": 2000
+        }
+    ]
+}
