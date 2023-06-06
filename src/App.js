@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ProductCollection from './components/ProductCollection';
+import Consoles from './components/Consoles';
+import NavBar from './components/NavBar';
 import Header from './components/Header';
+// import AccessoriesCollection from './components/AccessoriesCollection';
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+
+
 
 function App() {
 
@@ -16,14 +20,29 @@ function App() {
       })
   }, [])
 
-  console.log(consoleArray)
+
+
+  let temp = consoleArray[0]
+
+
   return (
+
     <div>
+      <NavBar consoleArray={consoleArray} />
       <Header />
-      <ProductCollection consoleArray={consoleArray} />
+
+      <Switch>
+        <Route exact path="/Playstation%205">
+          {console.log(consoleArray[0])}
+          <Consoles consoleArray={temp} />
+        </Route>
+        <Route exact path="/">
+          <Consoles consoleArray={consoleArray} />
+        </Route>
+      </Switch>
 
     </div>
-  );
+  )
 }
 
 export default App;

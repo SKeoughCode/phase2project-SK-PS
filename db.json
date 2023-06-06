@@ -5,46 +5,107 @@
             "name": "Playstation 5",
             "image": "https://media.gamestop.com/i/gamestop/11108140?$plp-tile3x$&fmt=webp",
             "price": 459.99,
-            "accessories": {
-                "controller": {
+            "accessories": [
+                {
                     "name": "Playstation 5 Controller",
                     "image": "https://media.gamestop.com/i/gamestop/11146116/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp$$&fmt=webp",
                     "price": 64.99
                 },
-                "vrHeadset": {
+                {
                     "name": "Sony Playstation VR2",
                     "image": "https://media.gamestop.com/i/gamestop/20004927?$plp-tile3x$&fmt=webp",
                     "price": 549.99
                 },
-                "camera": {
+                {
                     "name": "Sony Playstation 5 HD Camera",
                     "image": "https://media.gamestop.com/i/gamestop/11106280/Sony-PlayStation-5-HD-Camera?$plp-tile3x$&fmt=webp",
                     "price": 44.99
                 },
-                "powerSupplyCable": {
+                {
                     "name": "Sony Playstation 5 Power Cable",
                     "image": "https://media.gamestop.com/i/gamestop/11182452_black/Atrix-Universal-AC-Power-Cable-black?$pdp$$&fmt=webp",
                     "price": 7.97
                 }
-            }
+            ]
         },
         {
             "id": 2,
             "name": "Xbox Series X",
             "image": "https://media.gamestop.com/i/gamestop/11108371/Microsoft-Xbox-Series-X?$plp-tile3x$&fmt=webp",
-            "price": 459.99
+            "price": 459.99,
+            "accessories": [
+                {
+                    "name": "Xbox Series X Controller",
+                    "image": "https://media.gamestop.com/i/gamestop/11108954/Microsoft-Xbox-Series-X-Wireless-Controller-Carbon-Black?$pdp2x$",
+                    "price": 44.99
+                },
+                {
+                    "name": "Xbox Series X Stereo Gaming Headset",
+                    "image": "https://media.gamestop.com/i/gamestop/11112241/Microsoft-Xbox-Series-X-Stereo-Headset?$pdp2x$",
+                    "price": 49.99
+                },
+                {
+                    "name": "PDP Gaming Media Remote for Xbox Series X/S/One",
+                    "image": "https://media.gamestop.com/i/gamestop/11102883/PDP-Gaming-Media-Remote-for-Xbox-Series-X/S/One?$pdp2x$",
+                    "price": 22.99
+                },
+                {
+                    "name": "Seagate Storage Expansion Card for Xbox Series X 2TB",
+                    "image": "https://media.gamestop.com/i/gamestop/11108384/Seagate-1TB-Storage-Expansion-Card-for-Xbox-Series-X/S?$pdp2x$",
+                    "price": 329.99
+                }
+            ]
         },
         {
             "id": 3,
             "name": "Nintendo Switch",
             "image": "https://media.gamestop.com/i/gamestop/11149258?$plp-tile3x$&fmt=webp",
-            "price": 319.99
+            "price": 319.99,
+            "accessories": [
+                {
+                    "name": "Nintendo Switch Joy-Con (L)/(R) Neon Red/Neon Blue",
+                    "image": "https://media.gamestop.com/i/gamestop/10141870/Nintendo-Switch-Joy-Con-L/R-Wireless-Controller-Neon-Red/Neon-Blue?$pdp2x$",
+                    "price": 79.99
+                },
+                {
+                    "name": "PowerA Joy-Con Comfort Grib for Nintendo Switch",
+                    "image": "https://media.gamestop.com/i/gamestop/10141859/PowerA-Joy-Con-Comfort-Grip-for-Nintendo-Switch?$pdp2x$",
+                    "price": 12.99
+                },
+                {
+                    "name": "PDP Gaming LVL40 Wired Stereo Gaming Headset for Nintendo Switch",
+                    "image": "https://media.gamestop.com/i/gamestop/11100781?$pdp2x$",
+                    "price": 19.99
+                }
+            ]
         },
         {
             "id": 4,
             "name": "PC",
             "image": "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1651708-847__1&recipeName=350",
-            "price": 1999.99
+            "price": 1999.99,
+            "accessories": [
+                {
+                    "name": "Xbox Series X Controller",
+                    "image": "https://media.gamestop.com/i/gamestop/11108954/Microsoft-Xbox-Series-X-Wireless-Controller-Carbon-Black?$pdp2x$",
+                    "price": 44.99
+                },
+                {
+                    "name": "Xbox Series X Stereo Gaming Headset",
+                    "image": "https://media.gamestop.com/i/gamestop/11112241/Microsoft-Xbox-Series-X-Stereo-Headset?$pdp2x$",
+                    "price": 49.99
+                },
+                {
+                    "name": "PDP Gaming Media Remote for Xbox Series X/S/One",
+                    "image": "https://media.gamestop.com/i/gamestop/11102883/PDP-Gaming-Media-Remote-for-Xbox-Series-X/S/One?$pdp2x$",
+                    "price": 22.99
+                },
+                {
+                    "name": "Seagate Storage Expansion Card for Xbox Series X 2TB",
+                    "image": "https://media.gamestop.com/i/gamestop/11108384/Seagate-1TB-Storage-Expansion-Card-for-Xbox-Series-X/S?$pdp2x$",
+                    "price": 329.99
+                }
+            ]
         }
     ]
 }
