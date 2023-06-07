@@ -1,16 +1,10 @@
 import React from "react";
 import ProductCard from './ProductCard';
 
-function Consoles({ consoleArray, name }) {
-
-    console.log(consoleArray);
-    console.log(name)
-
-    let chosen = consoleArray?.filter(console => console.name === name)[0]
-
+function Consoles({ consoleArray, setCart, cart }) {
 
     const productCards = consoleArray?.map((item) => {
-        return <ProductCard key={item.id} name={item.name} image={item.image} price={item.price} />
+        return <ProductCard key={item.id} name={item.name} image={item.image} price={item.price} setCart={setCart} cart={cart} />
     })
 
     return (<div className="cards">
