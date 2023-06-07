@@ -1,18 +1,31 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
+
 
 function NavBar({ consoleArray }) {
 
     const navArray = consoleArray.map((cons) => {
-        return (<a key={cons.id} name={cons.name} href={cons.name} onClick={handleNavigate}>{cons.name}</a>)
+        return (
+            <NavLink
+                key={cons.id}
+                name={cons.name}
+                to={cons.name.replace(/\s/g, '')}
+            >
+                {cons.name}
+            </NavLink>
+        )
     })
-
-    function handleNavigate(e) {
-        e.preventDefault();
-        window.history.pushState(null, "", e.target.href);
-    }
 
     return (
         <nav>
+            <NavLink
+                key={"Home"}
+                name={"Home"}
+                to={"/"}
+            >
+                Home
+            </NavLink>
+
             {navArray}
         </nav>
     )

@@ -1,10 +1,17 @@
 import React from "react";
+import ProductCard from "./ProductCard"
 
-function AccessoriesCollection({ consArray }) {
+function AccessoriesCollection({ accessoriesList }) {
 
-    console.log(consArray);
+    console.log(accessoriesList)
 
-    return (<div>Blah Blah Blah</div>)
+    const accessoryCards = accessoriesList?.map((item) => {
+        return <ProductCard key={item.name} name={item.name} image={item.image} price={item.price} />
+    })
+
+    return (<div className="cards">
+        {accessoryCards}
+    </div>)
 }
 
 export default AccessoriesCollection;

@@ -3,7 +3,7 @@ import './App.css';
 import Consoles from './components/Consoles';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
-// import AccessoriesCollection from './components/AccessoriesCollection';
+import AccessoriesCollection from './components/AccessoriesCollection';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -22,7 +22,6 @@ function App() {
 
 
 
-  let temp = consoleArray[0]
 
 
   return (
@@ -32,9 +31,18 @@ function App() {
       <Header />
 
       <Switch>
-        <Route exact path="/Playstation%205">
-          {console.log(consoleArray[0])}
-          <Consoles consoleArray={temp} />
+        <Route path="/Playstation5">
+          {/* {console.log(consoleArray[0]?.accessories)} */}
+          <AccessoriesCollection accessoriesList={consoleArray[0]?.accessories} />
+        </Route>
+        <Route path="/XboxSeriesX">
+          <AccessoriesCollection accessoriesList={consoleArray[1]?.accessories} />
+        </Route>
+        <Route path="/NintendoSwitch">
+          <AccessoriesCollection accessoriesList={consoleArray[2]?.accessories} />
+        </Route>
+        <Route path="/PC">
+          <AccessoriesCollection accessoriesList={consoleArray[3]?.accessories} />
         </Route>
         <Route exact path="/">
           <Consoles consoleArray={consoleArray} />
