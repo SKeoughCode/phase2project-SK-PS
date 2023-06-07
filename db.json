@@ -37,7 +37,7 @@
                     "price": 24.99
                 },
                 {
-                    "name": "Sony DualSense Wireless Conroller Cosmic Red",
+                    "name": "Sony DualSense Wireless Controller Cosmic Red",
                     "image": "https://media.gamestop.com/i/gamestop/11146115/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp2x$",
                     "price": 64.99
                 }
@@ -172,5 +172,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "cart": []
 }

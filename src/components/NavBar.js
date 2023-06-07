@@ -1,8 +1,11 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import Header from './Header';
+import SearchBar from "./SearchBar";
+import Cart from "./Cart";
 
 
-function NavBar({ consoleArray }) {
+function NavBar({ consoleArray, setSearchTerm, cart, setCart }) {
 
     const navArray = consoleArray.map((cons) => {
         return (
@@ -18,15 +21,27 @@ function NavBar({ consoleArray }) {
 
     return (
         <nav>
-            <NavLink
-                key={"Home"}
-                name={"Home"}
-                to={"/"}
-            >
-                Home
-            </NavLink>
+            <Header className="logo" />
+            <SearchBar setSearchTerm={setSearchTerm} />
+            <div className="navbar">
+                <div className="dropdown">
+                    <button className="dropbtn">Menu
+                        <i className="fa fa-caret-down"></i>
+                    </button>
+                    <div className="dropdown-content">
+                        <NavLink
+                            key={"Home"}
+                            name={"Home"}
+                            to={"/"}
+                        >
+                            Home
+                        </NavLink>
 
-            {navArray}
+                        {navArray}
+                    </div>
+                </div>
+            </div>
+            <Cart />
         </nav>
     )
 }

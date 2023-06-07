@@ -1,6 +1,18 @@
 import React from "react";
 
-function ProductCard({ name, image, price }) {
+function ProductCard({ name, image, price, setCart, cart }) {
+
+    function handleClick() {
+
+        let newCartItem = {
+            name: name,
+            image: image,
+            price: price
+        }
+
+        setCart([...cart, newCartItem])
+
+    }
 
     return (
         <li className="cards__item">
@@ -13,9 +25,7 @@ function ProductCard({ name, image, price }) {
                 <div className="card__content">
                     <div className="card__title">{name}</div>
                     <p className="card__text">${price}</p>
-                    <div className="card__detail">
-
-                    </div>
+                    <button className="cart_button" onClick={handleClick}>Add to Cart</button>
                 </div>
             </div>
         </li>
