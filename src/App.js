@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ProductCollection from './components/ProductCollection';
+import Consoles from './components/Consoles';
+import NavBar from './components/NavBar';
 import Header from './components/Header';
+import AccessoriesCollection from './components/AccessoriesCollection';
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+
+
 
 function App() {
 
@@ -16,14 +20,37 @@ function App() {
       })
   }, [])
 
-  console.log(consoleArray)
+
+
+
+
   return (
+
     <div>
+      <NavBar consoleArray={consoleArray} />
       <Header />
-      <ProductCollection consoleArray={consoleArray} />
+
+      <Switch>
+        <Route path="/Playstation5">
+          {/* {console.log(consoleArray[0]?.accessories)} */}
+          <AccessoriesCollection accessoriesList={consoleArray[0]?.accessories} />
+        </Route>
+        <Route path="/XboxSeriesX">
+          <AccessoriesCollection accessoriesList={consoleArray[1]?.accessories} />
+        </Route>
+        <Route path="/NintendoSwitch">
+          <AccessoriesCollection accessoriesList={consoleArray[2]?.accessories} />
+        </Route>
+        <Route path="/PC">
+          <AccessoriesCollection accessoriesList={consoleArray[3]?.accessories} />
+        </Route>
+        <Route exact path="/">
+          <Consoles consoleArray={consoleArray} />
+        </Route>
+      </Switch>
 
     </div>
-  );
+  )
 }
 
 export default App;

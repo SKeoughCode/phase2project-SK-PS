@@ -5,46 +5,172 @@
             "name": "Playstation 5",
             "image": "https://media.gamestop.com/i/gamestop/11108140?$plp-tile3x$&fmt=webp",
             "price": 459.99,
-            "accessories": {
-                "controller": {
+            "accessories": [
+                {
                     "name": "Playstation 5 Controller",
                     "image": "https://media.gamestop.com/i/gamestop/11146116/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp$$&fmt=webp",
                     "price": 64.99
                 },
-                "vrHeadset": {
+                {
                     "name": "Sony Playstation VR2",
                     "image": "https://media.gamestop.com/i/gamestop/20004927?$plp-tile3x$&fmt=webp",
                     "price": 549.99
                 },
-                "camera": {
+                {
                     "name": "Sony Playstation 5 HD Camera",
                     "image": "https://media.gamestop.com/i/gamestop/11106280/Sony-PlayStation-5-HD-Camera?$plp-tile3x$&fmt=webp",
                     "price": 44.99
                 },
-                "powerSupplyCable": {
+                {
                     "name": "Sony Playstation 5 Power Cable",
                     "image": "https://media.gamestop.com/i/gamestop/11182452_black/Atrix-Universal-AC-Power-Cable-black?$pdp$$&fmt=webp",
                     "price": 7.97
+                },
+                {
+                    "name": "Playstation 5 Media Remote",
+                    "image": "https://media.gamestop.com/i/gamestop/11106279_ALT05/Sony-PlayStation-5-Media-Remote?$pdp2x$",
+                    "price": 24.99
+                },
+                {
+                    "name": "Playstation 5 DualSense Charging Station",
+                    "image": "https://media.gamestop.com/i/gamestop/11106283/Sony-PlayStation-5-DualSense-Charging-Station?$pdp2x$",
+                    "price": 24.99
+                },
+                {
+                    "name": "Sony DualSense Wireless Conroller Cosmic Red",
+                    "image": "https://media.gamestop.com/i/gamestop/11146115/Sony-DualSense-Wireless-Controller-for-PlayStation-5?$pdp2x$",
+                    "price": 64.99
                 }
-            }
+            ]
         },
         {
             "id": 2,
             "name": "Xbox Series X",
             "image": "https://media.gamestop.com/i/gamestop/11108371/Microsoft-Xbox-Series-X?$plp-tile3x$&fmt=webp",
-            "price": 459.99
+            "price": 459.99,
+            "accessories": [
+                {
+                    "name": "Xbox Series X Controller",
+                    "image": "https://media.gamestop.com/i/gamestop/11108954/Microsoft-Xbox-Series-X-Wireless-Controller-Carbon-Black?$pdp2x$",
+                    "price": 44.99
+                },
+                {
+                    "name": "Xbox Series X Stereo Gaming Headset",
+                    "image": "https://media.gamestop.com/i/gamestop/11112241/Microsoft-Xbox-Series-X-Stereo-Headset?$pdp2x$",
+                    "price": 49.99
+                },
+                {
+                    "name": "PDP Gaming Media Remote for Xbox Series X/S/One",
+                    "image": "https://media.gamestop.com/i/gamestop/11102883/PDP-Gaming-Media-Remote-for-Xbox-Series-X/S/One?$pdp2x$",
+                    "price": 22.99
+                },
+                {
+                    "name": "Seagate Storage Expansion Card for Xbox Series X 2TB",
+                    "image": "https://media.gamestop.com/i/gamestop/11108384/Seagate-1TB-Storage-Expansion-Card-for-Xbox-Series-X/S?$pdp2x$",
+                    "price": 329.99
+                },
+                {
+                    "name": "Xbox Adaptive Controller",
+                    "image": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Adaptive-Controller-Carousel3?scl=1&wid=960&hei=540",
+                    "price": 99.99
+                },
+                {
+                    "name": "Venom Controller Twin Docking Station Xbox Series X",
+                    "image": "https://media.gamestop.com/i/gamestop/11156531_black/Venom-Controller-Twin-Docking-Station-Xbox-Series-X-black?$pdp2x$",
+                    "price": 29.99
+                },
+                {
+                    "name": "Microsoft Xbox Series X Wireless Controller Shock Blue",
+                    "image": "https://media.gamestop.com/i/gamestop/11108955/Microsoft-Xbox-Series-X-Wireless-Controller-Shock-Blue?$pdp2x$",
+                    "price": 29.99
+                },
+                {
+                    "name": "Xbox Wireless Adapter for Windows 10",
+                    "image": "https://media.gamestop.com/i/gamestop/10125488_ALT05/Mirosoft-Xbox-Wireless-Adapter-for-Windows-10?$pdp2x$",
+                    "price": 24.99
+                }
+            ]
         },
         {
             "id": 3,
             "name": "Nintendo Switch",
             "image": "https://media.gamestop.com/i/gamestop/11149258?$plp-tile3x$&fmt=webp",
-            "price": 319.99
+            "price": 319.99,
+            "accessories": [
+                {
+                    "name": "Nintendo Switch Joy-Con (L)/(R) Neon Red/Neon Blue",
+                    "image": "https://media.gamestop.com/i/gamestop/10141870/Nintendo-Switch-Joy-Con-L/R-Wireless-Controller-Neon-Red/Neon-Blue?$pdp2x$",
+                    "price": 79.99
+                },
+                {
+                    "name": "PowerA Joy-Con Comfort Grib for Nintendo Switch",
+                    "image": "https://media.gamestop.com/i/gamestop/10141859/PowerA-Joy-Con-Comfort-Grip-for-Nintendo-Switch?$pdp2x$",
+                    "price": 12.99
+                },
+                {
+                    "name": "PDP Gaming LVL40 Wired Stereo Gaming Headset for Nintendo Switch",
+                    "image": "https://media.gamestop.com/i/gamestop/11100781?$pdp2x$",
+                    "price": 19.99
+                },
+                {
+                    "name": "PowerA GameCube Style Wired Controller for Nintendo Switch - Purple",
+                    "image": "https://media.gamestop.com/i/gamestop/11152126/PowerA-GameCube-Style-Wired-Controller-for-Nintendo-Switch---Purple?$pdp2x$",
+                    "price": 27.99
+                },
+                {
+                    "name": "Atrix Glass Screen Protector for Nintendo Switch Lite",
+                    "image": "https://media.gamestop.com/i/gamestop/11146790/Atrix-Glass-Screen-Protector-for-Nintendo-Switch-Lite?$pdp2x$",
+                    "price": 14.99
+                },
+                {
+                    "name": "Nintendo Switch Leg Strap Accessory",
+                    "image": "https://media.gamestop.com/i/gamestop/11202672/Nintendo-Switch-Leg-Strap-Accessory?$pdp2x$",
+                    "price": 9.99
+                },
+                {
+                    "name": "SanDisk - 256Gb microSDXC UHS-I Memory Card for Nintendo Switch",
+                    "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6350/6350363_sd.jpg;maxHeight=200;maxWidth=300",
+                    "price": 39.99
+                },
+                {
+                    "name": "Atrix 9 Piece Grip Bundle Pack for Nintendo Switch",
+                    "image": "https://media.gamestop.com/i/gamestop/11180512/Atrix-9-Piece-Grip-Bundle-Pack-for-Nintendo-Switch?$pdp2x$",
+                    "price": 49.99
+                }
+            ]
         },
         {
             "id": 4,
             "name": "PC",
             "image": "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=1651708-847__1&recipeName=350",
-            "price": 1999.99
+            "price": 1999.99,
+            "accessories": [
+                {
+                    "name": "HP 600 G1 Gaming PC - Intel Core i5 Quad-Core 3.2Ghz, 8GB RAM, 128GB SSD + 500GB HDD, AMD RX 6500 XT, W10H",
+                    "image": "https://media.gamestop.com/i/gamestop/11208376/HP-600-G1-Gaming-PC---Intel-Core-i5-Quad-Core-3.2Ghz-8GB-RAM-128GB-SSD--500GB-HDD-AMD-RX-6500-XT-W10H?$pdp2x$",
+                    "price": 583.99
+                },
+                {
+                    "name": "Skytech Gaming Desktop PC Archangel 4 Ryzen 5 3600 NVIDIA RTX 3050 16GB DDR4 500GB SSD ST-ARCH4-0645-W-GS",
+                    "image": "https://media.gamestop.com/i/gamestop/20003757_ALT01/Skytech-Gaming-Desktop-PC-Archangel-4-Ryzen-5-3600-NVIDIA-RTX-3050-16GB-DDR4-500GB-SSD-ST-ARCH4-0645-W-GS-?$pdp2x$",
+                    "price": 990.00
+                },
+                {
+                    "name": "iBUYPOWER SlateHakoA5N16501 Gaming Desktop PC AMD Ryzen 5 4500 8GB DDR4 NVIDIA GeForce GTX 1650 500GB NVMe SSD Windows 11 Home",
+                    "image": "https://media.gamestop.com/i/gamestop/20005075/iBUYPOWER-SlateHakoA5N16501-Gaming-Desktop-PC-AMD-Ryzen-5-4500-8GB-DDR4-NVIDIA-GeForce-GTX-1650-500GB-NVMe-SSD-Windows-11-Home-?$pdp$$&fmt=webp",
+                    "price": 799.99
+                },
+                {
+                    "name": "CLX AMD Ryzen 5 3600 Gaming Desktop PC16GB DDR4 3200MHz 3060 Ti 8GB 240GB SSD 2TB HDD WiFi MicroATX - Black",
+                    "image": "https://media.gamestop.com/i/gamestop/20000548/CLX-AMD-Ryzen-5-3600-Gaming-Desktop-PC16GB-DDR4-3200MHz-3060-Ti-8GB-240GB-SSD-2TB-HDD-WiFi--MicroATX---Black?$pdp$$&fmt=webp",
+                    "price": 1279.99
+                },
+                {
+                    "name": "MSI Infinite PC i9-13900KF 4090 24GB 64GB DDR5 2TB NVMe 2TB SSD Win11 InRS13NUI422 Gaming Desktop",
+                    "image": "https://media.gamestop.com/i/gamestop/20003019/MSI-Infinite-PC-i9-13900KF-4090-24GB-64GB-DDR5-2TB-NVMe-2TB-SSD-Win11-InRS13NUI422-Gaming-Desktop?$pdp2x$",
+                    "price": 4899.99
+                }
+            ]
         }
     ]
 }
