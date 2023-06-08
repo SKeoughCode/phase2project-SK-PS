@@ -14,6 +14,13 @@ function App() {
   const [cart, setCart] = useState([]);
 
   function emptyCart() {
+
+    cart.forEach((item) => {
+      fetch(`http://localhost:3000/cart/${item.id}`, {
+        method: 'DELETE',
+      })
+    })
+
     setCart([])
   }
 
