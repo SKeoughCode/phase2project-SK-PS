@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ProductCard({ name, image, price, setCart, cart }) {
+    const [inCart, setInCart] = useState(false);
 
     function handleClick() {
 
@@ -9,7 +10,7 @@ function ProductCard({ name, image, price, setCart, cart }) {
             image: image,
             price: price
         }
-
+        setInCart(true)
         setCart([...cart, newCartItem])
 
     }
@@ -25,7 +26,7 @@ function ProductCard({ name, image, price, setCart, cart }) {
                 <div className="card__content">
                     <div className="card__title">{name}</div>
                     <p className="card__text">${price}</p>
-                    <button className="cart_button" onClick={handleClick}>Add to Cart</button>
+                    <button className="cart_button" onClick={handleClick}>{!inCart ? "Add to Cart" : "Item in Cart"}</button>
                 </div>
             </div>
         </li>
