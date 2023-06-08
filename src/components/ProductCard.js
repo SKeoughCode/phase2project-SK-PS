@@ -10,8 +10,21 @@ function ProductCard({ name, image, price, setCart, cart }) {
             image: image,
             price: price
         }
-        setInCart(true)
-        setCart([...cart, newCartItem])
+
+        const postableItem = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newCartItem)
+        }
+
+        fetch('http://localhost:3000/cart', postableItem)
+            .then((resp) => resp.json())
+            .then((data) => {
+                setInCart(true)
+                setCart([...cart, data])
+            })
 
     }
 
