@@ -13,6 +13,10 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [cart, setCart] = useState([]);
 
+  function emptyCart() {
+    setCart([])
+  }
+
   useEffect(() => {
     fetch("http://localhost:3000/consoles")
       .then((resp) => resp.json())
@@ -28,8 +32,6 @@ function App() {
         setCart(data)
       })
   }, [])
-
-  console.log(cart);
 
 
   const filteredConsoleArray = consoleArray.filter((item) => {
@@ -56,10 +58,8 @@ function App() {
 
     <div>
       <NavBar consoleArray={consoleArray} setSearchTerm={setSearchTerm} cart={cart} setCart={setCart} />
-
       <Switch>
         <Route path="/Playstation5">
-          {/* {console.log(consoleArray[0]?.accessories)} */}
           <AccessoriesCollection accessoriesList={filteredPlaystationArray} setCart={setCart} cart={cart} />
         </Route>
         <Route path="/XboxSeriesX">
@@ -73,6 +73,7 @@ function App() {
         </Route>
         <Route exact path="/Cart">
           <AccessoriesCollection accessoriesList={cart} setCart={setCart} cart={cart} />
+          <button className='cart_button' onClick={emptyCart}>Empty Cart</button>
         </Route>
         <Route exact path="/">
           <Consoles consoleArray={filteredConsoleArray} setCart={setCart} cart={cart} />

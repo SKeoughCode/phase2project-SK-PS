@@ -23,22 +23,20 @@ function NavBar({ consoleArray, setSearchTerm, cart, setCart }) {
         <nav>
             <Header className="logo" />
             <SearchBar setSearchTerm={setSearchTerm} />
-            <div className="navbar">
-                <div className="dropdown">
-                    <button className="dropbtn">Menu
-                        <i className="fa fa-caret-down"></i>
-                    </button>
-                    <div className="dropdown-content">
-                        <NavLink
-                            key={"Home"}
-                            name={"Home"}
-                            to={"/"}
-                        >
-                            Home
-                        </NavLink>
+            <div className="dropdown">
+                <button className="dropbtn">Menu
+                    <i className="fa fa-caret-down"></i>
+                </button>
+                <div className="dropdown-content">
+                    <NavLink
+                        key={"Home"}
+                        name={"Home"}
+                        to={"/"}
+                    >
+                        Home
+                    </NavLink>
 
-                        {navArray}
-                    </div>
+                    {navArray}
                 </div>
             </div>
             <Cart />

@@ -9,9 +9,14 @@ function SearchBar({ setSearchTerm }) {
 
 
     return (
+
         <div className="search">
-            <input type="text" className="searchTerm" onChange={handleChange} />
+            <input type="text" placeholder="Looking for something?" className="searchTerm" onChange={handleChange} />
+            <button className="searchButton">
+                <i className="fa fa-search"></i>
+            </button>
         </div>
+
     )
 }
 
