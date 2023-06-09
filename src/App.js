@@ -40,15 +40,12 @@ function App() {
       })
   }, [])
 
-
   const filteredConsoleArray = consoleArray.filter((item) => {
     return (item.name.toLowerCase().includes(searchTerm.toLowerCase()))
   })
-
   const filteredPlaystationArray = consoleArray[0]?.accessories.filter((item) => {
     return (item.name.toLowerCase().includes(searchTerm.toLowerCase()))
   })
-
   const filteredXboxArray = consoleArray[1]?.accessories.filter((item) => {
     return (item.name.toLowerCase().includes(searchTerm.toLowerCase()))
   })
@@ -58,8 +55,6 @@ function App() {
   const filteredPCArray = consoleArray[3]?.accessories.filter((item) => {
     return (item.name.toLowerCase().includes(searchTerm.toLowerCase()))
   })
-
-
 
   return (
 

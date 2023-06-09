@@ -111,8 +111,8 @@
         },
         {
           "name": "Xbox Gift Card",
-          "image": "https://m.media-amazon.com/images/I/61m6wDi1SYL._SX466_.jpg",
-          "price": 50
+          "image": "https://m.media-amazon.com/images/I/61NNElXRdGL._SL1500_.jpg",
+          "price": 25
         },
         {
           "name": "Elden Ring - Xbox Series X",
@@ -179,7 +179,7 @@
         },
         {
           "name": "Super Mario Party - Nintendo Switch",
-          "image": "https://media.gamestop.com/i/gamestop/10162374/Super-Mario-Party?$pdp$$&fmt=jp2",
+          "image": "https://media.gamestop.com/i/gamestop/10162374/Super-Mario-Party?$pdp$$&fmt=webp",
           "price": 49.99
         },
         {
@@ -222,12 +222,12 @@
         },
         {
           "name": "Razor Kitsune All-Button Optical Arcade Controller Black Edition for PC",
-          "image": "https://media.gamestop.com/i/gamestop/20005885-1f05d44d?$pdp$$&fmt=jp2",
+          "image": "https://m.media-amazon.com/images/I/61AZlBXaTlL.jpg",
           "price": 299.99
         },
         {
           "name": "Valve Steam Wallet Card",
-          "image": "https://media.gamestop.com/i/gamestop/10116382?$pdp$$&fmt=jp2",
+          "image": "https://m.media-amazon.com/images/I/7140y5+FL8L._SL1500_.jpg",
           "price": 20
         },
         {

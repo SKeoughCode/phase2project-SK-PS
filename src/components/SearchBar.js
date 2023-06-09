@@ -6,10 +6,7 @@ function SearchBar({ setSearchTerm }) {
         console.log(e.target.value)
         setSearchTerm(e.target.value);
     }
-
-
     return (
-
         <div className="search">
             <input type="text" placeholder="Looking for something?" className="searchTerm" onChange={handleChange} />
             <button className="searchButton">
